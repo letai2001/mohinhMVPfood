@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User name"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/black"
+            android:background="@drawable/tvbackground"
+            android:paddingTop="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:hint="Pass word"
+            android:textColorHint="@color/black"
+            android:background="@drawable/tvbackground"
+            android:paddingTop="20dp"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="LOGIN"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
